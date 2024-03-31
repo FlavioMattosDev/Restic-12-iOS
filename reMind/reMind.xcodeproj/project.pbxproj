@@ -16,6 +16,9 @@
 		31D2B8E42BB9311000FD613B /* reBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D2B8E32BB9311000FD613B /* reBackground.swift */; };
 		31D2B8E92BB9FE8000FD613B /* BoxCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D2B8E82BB9FE8000FD613B /* BoxCardView.swift */; };
 		31D2B8EB2BBA049E00FD613B /* reBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D2B8EA2BBA049E00FD613B /* reBadge.swift */; };
+		31D2B8EE2BBA1D9300FD613B /* reTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D2B8ED2BBA1D9300FD613B /* reTextField.swift */; };
+		31D2B8F02BBA20D400FD613B /* reTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D2B8EF2BBA20D400FD613B /* reTextFieldStyle.swift */; };
+		31D2B8F22BBA234000FD613B /* BoxEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D2B8F12BBA234000FD613B /* BoxEditorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		31D2B8E32BB9311000FD613B /* reBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reBackground.swift; sourceTree = "<group>"; };
 		31D2B8E82BB9FE8000FD613B /* BoxCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxCardView.swift; sourceTree = "<group>"; };
 		31D2B8EA2BBA049E00FD613B /* reBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reBadge.swift; sourceTree = "<group>"; };
+		31D2B8ED2BBA1D9300FD613B /* reTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reTextField.swift; sourceTree = "<group>"; };
+		31D2B8EF2BBA20D400FD613B /* reTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reTextFieldStyle.swift; sourceTree = "<group>"; };
+		31D2B8F12BBA234000FD613B /* BoxEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxEditorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				31D2B8E32BB9311000FD613B /* reBackground.swift */,
+				31D2B8ED2BBA1D9300FD613B /* reTextField.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -125,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				319C32812BB925A10003F0A8 /* Palette.swift */,
+				31D2B8EF2BBA20D400FD613B /* reTextFieldStyle.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -141,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				319C327C2BB265FD0003F0A8 /* Boxes */,
+				31D2B8EC2BBA1CDD00FD613B /* BoxEditor */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -176,6 +185,14 @@
 				31D2B8E82BB9FE8000FD613B /* BoxCardView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		31D2B8EC2BBA1CDD00FD613B /* BoxEditor */ = {
+			isa = PBXGroup;
+			children = (
+				31D2B8F12BBA234000FD613B /* BoxEditorView.swift */,
+			);
+			path = BoxEditor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31D2B8EE2BBA1D9300FD613B /* reTextField.swift in Sources */,
 				31D2B8E42BB9311000FD613B /* reBackground.swift in Sources */,
+				31D2B8F02BBA20D400FD613B /* reTextFieldStyle.swift in Sources */,
 				319C32822BB925A10003F0A8 /* Palette.swift in Sources */,
+				31D2B8F22BBA234000FD613B /* BoxEditorView.swift in Sources */,
 				31D2B8EB2BBA049E00FD613B /* reBadge.swift in Sources */,
 				319C32692BB264A20003F0A8 /* ContentView.swift in Sources */,
 				319C32672BB264A20003F0A8 /* reMindApp.swift in Sources */,
