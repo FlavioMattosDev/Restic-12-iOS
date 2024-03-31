@@ -8,17 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(\.colorScheme) var colorScheme
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        Rectangle()
+            .fill(Color.clear)
+            .background(reBackground())
     }
 }
-
 #Preview {
     ContentView()
 }
