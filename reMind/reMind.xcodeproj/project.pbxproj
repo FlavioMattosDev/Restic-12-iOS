@@ -11,9 +11,10 @@
 		319C32692BB264A20003F0A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319C32682BB264A20003F0A8 /* ContentView.swift */; };
 		319C326B2BB264A30003F0A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 319C326A2BB264A30003F0A8 /* Assets.xcassets */; };
 		319C326E2BB264A30003F0A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 319C326D2BB264A30003F0A8 /* Preview Assets.xcassets */; };
-		319C32802BB268140003F0A8 /* 	.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 319C327F2BB268140003F0A8 /* 	.xcassets */; };
+		319C32802BB268140003F0A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 319C327F2BB268140003F0A8 /* Assets.xcassets */; };
 		319C32822BB925A10003F0A8 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319C32812BB925A10003F0A8 /* Palette.swift */; };
 		31D2B8E42BB9311000FD613B /* reBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D2B8E32BB9311000FD613B /* reBackground.swift */; };
+		31D2B8E92BB9FE8000FD613B /* BoxCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D2B8E82BB9FE8000FD613B /* BoxCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,9 +23,10 @@
 		319C32682BB264A20003F0A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		319C326A2BB264A30003F0A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		319C326D2BB264A30003F0A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		319C327F2BB268140003F0A8 /* 	.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "\t.xcassets"; sourceTree = "<group>"; };
+		319C327F2BB268140003F0A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		319C32812BB925A10003F0A8 /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
 		31D2B8E32BB9311000FD613B /* reBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reBackground.swift; sourceTree = "<group>"; };
+		31D2B8E82BB9FE8000FD613B /* BoxCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 		319C327C2BB265FD0003F0A8 /* Boxes */ = {
 			isa = PBXGroup;
 			children = (
+				31D2B8E52BB9FE2200FD613B /* Components */,
 				319C32682BB264A20003F0A8 /* ContentView.swift */,
 			);
 			path = Boxes;
@@ -151,7 +154,7 @@
 		319C327D2BB266270003F0A8 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				319C327F2BB268140003F0A8 /* 	.xcassets */,
+				319C327F2BB268140003F0A8 /* Assets.xcassets */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -162,6 +165,14 @@
 				319C326A2BB264A30003F0A8 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		31D2B8E52BB9FE2200FD613B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				31D2B8E82BB9FE8000FD613B /* BoxCardView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,7 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				319C326E2BB264A30003F0A8 /* Preview Assets.xcassets in Resources */,
-				319C32802BB268140003F0A8 /* 	.xcassets in Resources */,
+				319C32802BB268140003F0A8 /* Assets.xcassets in Resources */,
 				319C326B2BB264A30003F0A8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +250,7 @@
 				319C32822BB925A10003F0A8 /* Palette.swift in Sources */,
 				319C32692BB264A20003F0A8 /* ContentView.swift in Sources */,
 				319C32672BB264A20003F0A8 /* reMindApp.swift in Sources */,
+				31D2B8E92BB9FE8000FD613B /* BoxCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
