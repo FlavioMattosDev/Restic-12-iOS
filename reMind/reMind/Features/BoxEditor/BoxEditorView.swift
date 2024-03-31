@@ -10,17 +10,38 @@ import SwiftUI
 struct BoxEditorView: View {
     @State var name: String
     @State var keywords: String
+    @State var description: String
+//    @State var theme: BoxTheme
+    
     var body: some View {
-        VStack(spacing:20) {
-            reTextField(title: "Name", text: $name)
-            reTextField(title: "Keywords", caption: "Separated by , (comma)", text: $keywords)
-            Spacer()
+        NavigationStack{
+            VStack(spacing:20) {
+                reTextField(title: "Name", text: $name)
+                reTextField(title: "Keywords", caption: "Separated by , (comma)", text: $keywords)
+                reTextEditor(title: "Description", text: $description)
+                Spacer()
             }
-        .padding()
-        .background(reBackground())
+            .padding()
+            .background(reBackground())
+            .navigationTitle("New Box")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading){
+                    Button("Cancel"){
+                        print("Cancel")
+                    }
+                }
+                ToolbarItem(placement: .navigationBarTrailing){
+                    Button("Save"){
+                        print("Save")
+                    }
+                    .fontWeight(.bold)
+                }
+            }
         }
+    }
 }
 
 #Preview {
-    BoxEditorView(name: "Box Name", keywords: "Key, key")
+    BoxEditorView(name: "", keywords: "", description: "")
 }

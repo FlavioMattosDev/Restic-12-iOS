@@ -19,6 +19,7 @@
 		31D2B8EE2BBA1D9300FD613B /* reTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D2B8ED2BBA1D9300FD613B /* reTextField.swift */; };
 		31D2B8F02BBA20D400FD613B /* reTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D2B8EF2BBA20D400FD613B /* reTextFieldStyle.swift */; };
 		31D2B8F22BBA234000FD613B /* BoxEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D2B8F12BBA234000FD613B /* BoxEditorView.swift */; };
+		31D2B8F42BBA2AFE00FD613B /* reTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D2B8F32BBA2AFE00FD613B /* reTextEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		31D2B8ED2BBA1D9300FD613B /* reTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reTextField.swift; sourceTree = "<group>"; };
 		31D2B8EF2BBA20D400FD613B /* reTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reTextFieldStyle.swift; sourceTree = "<group>"; };
 		31D2B8F12BBA234000FD613B /* BoxEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxEditorView.swift; sourceTree = "<group>"; };
+		31D2B8F32BBA2AFE00FD613B /* reTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reTextEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 			children = (
 				31D2B8E32BB9311000FD613B /* reBackground.swift */,
 				31D2B8ED2BBA1D9300FD613B /* reTextField.swift */,
+				31D2B8F32BBA2AFE00FD613B /* reTextEditor.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				31D2B8E42BB9311000FD613B /* reBackground.swift in Sources */,
 				31D2B8F02BBA20D400FD613B /* reTextFieldStyle.swift in Sources */,
 				319C32822BB925A10003F0A8 /* Palette.swift in Sources */,
+				31D2B8F42BBA2AFE00FD613B /* reTextEditor.swift in Sources */,
 				31D2B8F22BBA234000FD613B /* BoxEditorView.swift in Sources */,
 				31D2B8EB2BBA049E00FD613B /* reBadge.swift in Sources */,
 				319C32692BB264A20003F0A8 /* ContentView.swift in Sources */,
