@@ -9,7 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-Text("Ola mundo")
+        BoxCardView(boxName: "Box", numberOfTerms: 10, theme: .mauve)
+            .reBadge("15")
+        
     }
 }
 #Preview {
