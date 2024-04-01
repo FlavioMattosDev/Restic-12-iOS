@@ -20,6 +20,8 @@
 		31D2B8F02BBA20D400FD613B /* reTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D2B8EF2BBA20D400FD613B /* reTextFieldStyle.swift */; };
 		31D2B8F22BBA234000FD613B /* BoxEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D2B8F12BBA234000FD613B /* BoxEditorView.swift */; };
 		31D2B8F42BBA2AFE00FD613B /* reTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D2B8F32BBA2AFE00FD613B /* reTextEditor.swift */; };
+		31D2B8F82BBA311B00FD613B /* reRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D2B8F72BBA311B00FD613B /* reRadioButton.swift */; };
+		31D2B8FB2BBA32A500FD613B /* reRadioButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D2B8FA2BBA32A500FD613B /* reRadioButtonGroup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		31D2B8EF2BBA20D400FD613B /* reTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reTextFieldStyle.swift; sourceTree = "<group>"; };
 		31D2B8F12BBA234000FD613B /* BoxEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxEditorView.swift; sourceTree = "<group>"; };
 		31D2B8F32BBA2AFE00FD613B /* reTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reTextEditor.swift; sourceTree = "<group>"; };
+		31D2B8F72BBA311B00FD613B /* reRadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reRadioButton.swift; sourceTree = "<group>"; };
+		31D2B8FA2BBA32A500FD613B /* reRadioButtonGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reRadioButtonGroup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +131,7 @@
 				31D2B8E32BB9311000FD613B /* reBackground.swift */,
 				31D2B8ED2BBA1D9300FD613B /* reTextField.swift */,
 				31D2B8F32BBA2AFE00FD613B /* reTextEditor.swift */,
+				31D2B8F72BBA311B00FD613B /* reRadioButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -193,9 +198,18 @@
 		31D2B8EC2BBA1CDD00FD613B /* BoxEditor */ = {
 			isa = PBXGroup;
 			children = (
+				31D2B8F92BBA328600FD613B /* Components */,
 				31D2B8F12BBA234000FD613B /* BoxEditorView.swift */,
 			);
 			path = BoxEditor;
+			sourceTree = "<group>";
+		};
+		31D2B8F92BBA328600FD613B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				31D2B8FA2BBA32A500FD613B /* reRadioButtonGroup.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,8 +285,10 @@
 			files = (
 				31D2B8EE2BBA1D9300FD613B /* reTextField.swift in Sources */,
 				31D2B8E42BB9311000FD613B /* reBackground.swift in Sources */,
+				31D2B8FB2BBA32A500FD613B /* reRadioButtonGroup.swift in Sources */,
 				31D2B8F02BBA20D400FD613B /* reTextFieldStyle.swift in Sources */,
 				319C32822BB925A10003F0A8 /* Palette.swift in Sources */,
+				31D2B8F82BBA311B00FD613B /* reRadioButton.swift in Sources */,
 				31D2B8F42BBA2AFE00FD613B /* reTextEditor.swift in Sources */,
 				31D2B8F22BBA234000FD613B /* BoxEditorView.swift in Sources */,
 				31D2B8EB2BBA049E00FD613B /* reBadge.swift in Sources */,
